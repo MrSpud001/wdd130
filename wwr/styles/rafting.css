@@ -1,0 +1,64 @@
+:root {
+    --color-main: darkred;
+    --color-secondary: ;
+    --color-highlight: rgb(255, 231, 215);
+    --font-main: ;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+header {
+    background-color: var(--color-main);
+    color: var(--color-highlight);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* hero */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    color: white;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.hero article {}
+
+.hero article img {
+    float: right;
+    width: 300px;
+}
