@@ -44,6 +44,10 @@ header img {
     width: 100px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 /* hero */
 .hero {
     position: relative;
@@ -76,8 +80,14 @@ header img {
     width: 250px;
 }
 
-.socailmedia a {
+/* history */
+
+/* footer */
+
+footer a {
     text-decoration: none;
 }
 
-/* history */
+.socialmedia a {
+    text-decoration: none;
+}
