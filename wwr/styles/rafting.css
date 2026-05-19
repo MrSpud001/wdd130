@@ -1,8 +1,8 @@
 :root {
     --color-main: darkred;
-    --color-secondary: ;
+    --color-secondary: white;
     --color-highlight: rgb(255, 231, 215);
-    --font-main: ;
+    --font-main: "Times New Roman", "Georgia", serif;
 
 }
 
@@ -24,6 +24,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    font-family: var(--font-main);
 }
 
 h1,
@@ -35,6 +36,12 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+/* header */
+
+header img {
+    width: 100px;
 }
 
 /* hero */
@@ -49,16 +56,28 @@ article {
 }
 
 .hero h1 {
-    color: white;
+    color: var(--color-secondary);
     position: absolute;
     top: 120px;
     width: 100%;
     text-align: center;
 }
 
-.hero article {}
+.hero article {
+    position: absolute;
+    top: 120px;
+    /* width: 100%; */
+    text-align: center;
+    color: var(--color-secondary);
+}
 
 .hero article img {
     float: right;
-    width: 300px;
+    width: 250px;
 }
+
+.socailmedia a {
+    text-decoration: none;
+}
+
+/* history */
