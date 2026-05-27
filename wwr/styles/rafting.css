@@ -149,7 +149,9 @@ footer p {
     text-align: center;
 }
 
-.socialmedia {}
+.socialmedia a img {
+    width: 75px;
+}
 
 footer a {
     text-decoration: none;
