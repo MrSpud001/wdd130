@@ -1,5 +1,5 @@
 :root {
-    --color-main: darkred;
+    --color-main: pink;
     --color-secondary: white;
     --color-highlight: rgb(255, 231, 215);
     --font-main: "Times New Roman", "Georgia", serif;
@@ -15,7 +15,7 @@
 body {}
 
 header {
-    background-color: pink;
+    background-color: var(--color-main);
     color: var(--color-highlight);
     display: grid;
     grid-template-columns: 1fr 1fr;
