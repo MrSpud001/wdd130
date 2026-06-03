@@ -160,3 +160,75 @@ footer a {
 .socialmedia a {
     text-decoration: none;
 }
+
+/* ------------------------------------- */
+/* contact page */
+
+.contact-main-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+iframe {
+    height: 350px;
+    width: 350px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form button {
+    padding: 10px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.address p {
+    margin: 0;
+    padding: 0;
+}
+
+.form-radio {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.employees div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: space-around; */
+    gap: 0 100px;
+
+}
+
+.employees div img {
+    width: 150px;
+    place-self: center;
+}
+
+.employees div p {
+    margin: 0;
+    place-self: center;
+    font-weight: 600;
+}
+
+.employees div i {
+    margin: 0;
+    place-self: center;
+}
