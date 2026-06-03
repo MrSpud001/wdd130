@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us Raft company</title>
-    <meta name="description" content="wdd130 project - wwr contact page - w5 assignment">
+    <meta name="description"
+      content="wdd130 project - wwr contact page - w5 assignment contact us page">
     <meta name="author" content="Ethan shaw">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -45,32 +46,32 @@
             </div>
 
             <form class="contact-form">
-                <label>Name: <input type="text" id="name" required></label>
-                <label>Email: <input></label>
+                <label>Name: <input type="text" name="name" id="name" required></label>
+                <label>Email: <input type="email" name="email" id="email"></label>
                 <div class="form-radio">
                     <label for="purpose">Message purpose:</label>
                     <div class="form-radio-options">
                         <div>
 
-                            <input type="radio" id="radio-1">
+                            <input type="radio" id="radio-1" name="purpose">
                             <label for="radio-1">option 1</label>
                         </div>
                         <div>
 
-                            <input type="radio" id="radio-2">
+                            <input type="radio" id="radio-2" name="purpose">
                             <label for="radio-2">option 2</label>
                         </div>
                         <div>
 
-                            <input type="radio" id="radio-3">
+                            <input type="radio" id="radio-3" name="purpose">
                             <label for="radio-3">option 3</label>
                         </div>
                     </div>
                 </div>
-                <label>Message: </label>
-                <textarea name="message" rows="3"></textarea>
-                <label>subscroob? <input type="checkbox"></label>
-                <button type="submit">Submit</button>
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" rows="3"></textarea>
+                <label>subscroob? <input name="checkbox" id="checkbox" type="checkbox"></label>
+                <button type="submit">Send request</button>
             </form>
         </div>
         <section class="employees">
